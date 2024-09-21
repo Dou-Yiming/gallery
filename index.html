@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Yiming's Photo Gallery
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+    <link rel="stylesheet" href="compact-gallery.css">
+    <link rel="stylesheet" href="horizontal.css">
+    <!-- Optional seperate css files -->
+    <!-- <link rel="stylesheet" href="hero-img.css"> -->
+    <!-- <link rel="stylesheet" href="cards-gallery.css">
+    <link rel="stylesheet" href="grid-gallery.css"> -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand nav-link" href="#top">
+            Yiming's Photo Gallery
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fluid-gallery">Fluid Gallery</a>
+                </li>
+            </ul>
+        </div> -->
+    </nav>
+
+    <!-- optional hero image  -->
+
+    <!--     <div class="hero-image">
+        <img class="img-fluid" src="https://source.unsplash.com/1600x900/?profile,Photographer" alt="Photographer">
+        <div class="hero-text">
+            <p>Your Photography Studios</p>
+            mailto:
+            <button id="mailto">
+                <a href="mailto:photographyStudios@yourStudioName.net?Subject=Photography%Appointments" target="_top">
+                    < Appointments />
+                </a>
+            </button>
+        </div>
+    </div> -->
+
+    <!-- COMPACT EASE IN-OUT GALLERY -->
+    <a name="fluid-gallery"></a>
+    <section class="gallery-block compact-gallery">
+        <div class="container">
+            <div class="heading">
+                <!-- <h2>
+                    Fluid Gallery
+                </h2> -->
+                <!-- <hr class="hr"> -->
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/duck.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/duck.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Duck family</span>-->
+                            <span class="description-body">Seattle, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/banff.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/banff.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Banff, Canada</span>
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/nyu.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/nyu.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">New York, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/calgary.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/calgary.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Calgary, Canada</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/lujiazui.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/lujiazui.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Barn</span> -->
+                            <span class="description-body">Shanghai, China</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/pike_place.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/pike_place.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Seattle, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/stanford.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/stanford.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Stanford, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/law_school.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/law_school.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Barn</span> -->
+                            <span class="description-body">Ann Arbor, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/jiayuguan.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/jiayuguan.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Barn</span> -->
+                            <span class="description-body">Jiayuguan, China</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/space_needle.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/space_needle.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Seattle, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/barn.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/barn.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Barn</span> -->
+                            <span class="description-body">Shanghai, China</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/time_square.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/time_square.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">New York, U.S.</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/bbq.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/bbq.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">Duck family</span>-->
+                            <span class="description-body">Harbin, China</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/qinghaihu.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/qinghaihu.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Qinghai, China</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="img/ferris_wheel.jpg">
+                        <div class="image-square">
+                            <img class="img-fluid image" src="img/ferris_wheel.jpg">
+                        </div>
+                        <span class="description">
+                            <!-- <span class="description-heading">SJTU</span> -->
+                            <span class="description-body">Shanghai, China</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <!-- <div class="about-page">
+        <h2>About me</h2>
+        <p id="about-me"></p>
+    </div> -->
+    <footer>
+        &copy; MIT License Chase Singhofen 2018 Photo Gallery
+        <a href="#top">Go to top</a>
+    </footer>
+
+
+    <!-- BS4 JQUERY AND POPPER.js CDN's -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+
+    <!-- local script file  -->
+    <script>
+        baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
+
+    </script>
+
+</body>
+
+</html>
